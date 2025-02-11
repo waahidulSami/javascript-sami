@@ -106,9 +106,16 @@ let num =[ 2,3,4,5,6,7,8,9,10,11,12]
 
 let evenarr=num.filter((val) => {
 return val > 10;
-
 })
+// filter question 
 console.log(evenarr);
+let array = [89,90,91,92,49,33,40]
+let backbencher = array.filter((val)=>{
+    return val > 30;
+});
+console.log(backbencher);
+
+
 
 
 //reduce 
@@ -117,4 +124,13 @@ let arr = [1,2,3,4,5]
 const output =arr.reduce((sa,mi)=>{
 return sa +mi ;
 })
+//quation  reduce 
+let arr = [1,2,3,4,5]
+
+const output =arr.reduce((sa,mi)=>{
+return sa >  mi ? sa : mi
+})
 console.log(output);
+
+
+
