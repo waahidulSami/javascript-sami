@@ -1,0 +1,20 @@
+
+button{
+    margin-top: 20px;
+    padding: 2px 20px 2px 20px;
+    background-color: rgb(27, 186, 214);
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+        background-color: rgb(255, 182, 23);
+        transform: scale(1.05);
+}
+img {
+    width: 80px;
+    
+}
