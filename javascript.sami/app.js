@@ -71,3 +71,50 @@ const countvow =(sami)=>{
     }
 return count;
 }
+
+
+
+//
+let array = ['sami' ,'rumi'];
+
+array.forEach((val,idx,array) => {
+    console.log(val.toUpperCase() ,idx,array);
+});
+
+// question 
+let array1 = [2,4,6,8,10];
+
+array1.forEach((num) => {
+    console.log(num * num);
+})
+
+let calc = [10,20,30,40,50];
+let calucet = (num) => {
+    console.log(num * num);
+}
+calc.forEach(calucet);
+//map
+let nums =[ 50,70,100]
+
+let newarr=nums.map((val) => {
+return val  + 2;
+
+})
+console.log(newarr);
+//filter 
+let num =[ 2,3,4,5,6,7,8,9,10,11,12]
+
+let evenarr=num.filter((val) => {
+return val > 10;
+
+})
+console.log(evenarr);
+
+
+//reduce 
+let arr = [1,2,3,4,5]
+
+const output =arr.reduce((sa,mi)=>{
+return sa +mi ;
+})
+console.log(output);
