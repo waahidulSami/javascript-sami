@@ -71,9 +71,6 @@ const countvow =(sami)=>{
     }
 return count;
 }
-
-
-
 //
 let array = ['sami' ,'rumi'];
 
@@ -132,5 +129,27 @@ return sa >  mi ? sa : mi
 })
 console.log(output);
 
+/// eaxample 
+
+const fruits = [
+    { name: "apple", color: "red" },
+    { name: "orange", color: "yellow" },
+    { name: "banana", color: "magenta" }
+];
+
+///----------- for each ()----------///
+
+fruits.forEach(fruits=>console.log(fruits.name))
+
+///----------- map ()----------///
+
+const fruitsname = fruits.map(fruits=>fruits.name);
+console.log(fruitsname);
+
+///-----------  filter ()----------///
+
+const redFruits = fruits.filter(fruit => fruit.color === "yellow");
+
+console.log(redFruits);
 
 
